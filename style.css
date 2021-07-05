@@ -1,0 +1,69 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*.......common.........*/
+.d-flex{
+    display: flex;
+}
+.part{
+    width: 50%;
+    height: 100vh;
+    padding-left: 2%;
+}
+.part h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(75, 74, 74);
+}
+.part p{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(87, 87, 87);
+    margin-top: 20px;
+    margin-bottom: 68px;
+}
+/*......header start.........*/
+.header{
+    background-color: whitesmoke;
+}
+#part-header{
+    margin: 10% 10% 0;
+}
+.head-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 18px 40px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-top: 20px;
+}
+.header-img{
+    margin-top: 30%;
+}
+/*......header end.........*/
+
+/*......main start..........*/
+.main-first{
+    background-image: url(img/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-img{
+    width: 650px;
+    margin: 20%;
+}
+.main-part{
+    margin: 18% 6% 0 8%;
+    width: 450px;
+}
+.main-part h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(107, 104, 104);
+}
+.main-part p{
+    font-weight: 200;
+    color: rgb(41, 41, 41);
+}
