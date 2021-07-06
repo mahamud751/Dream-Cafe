@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -38,20 +42,24 @@ body{
     color: rgb(255, 255, 255);
     font-weight: 700;
     margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
 }
 .header-img{
     margin-top: 30%;
+    width: 400px;
 }
 /*......header end.........*/
 
-/*......main start..........*/
+/*......main-first start..........*/
 .main-first{
     background-image: url(img/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: -50px;
 }
 .main-img{
-    width: 650px;
+    width: 450px;
     margin: 20%;
 }
 .main-part{
@@ -66,4 +74,128 @@ body{
 .main-part p{
     font-weight: 200;
     color: rgb(41, 41, 41);
+}/*......main-first end..........*/
+
+/*......main-middle card part start..........*/
+.main-middle{
+    width: 100%;
+    margin-top: 150px;
 }
+.middle-title{
+    margin-bottom: 100px;
+}
+.middle-title h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(75, 74, 74);
+}
+.middle-title p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(75, 74, 74);
+    margin-bottom: 20px;
+}
+.card{
+    width: 80%;
+    margin: 10px 10%;
+    display: flex ;
+}
+.card-body{
+    width: 30%;
+    padding: 3%;
+    margin-left: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px; 
+}
+.card-body img{
+    padding: ;
+    width: 300px;
+    height: 200px;
+}
+
+
+/*......main-middle card part end..........*/
+
+/*......main-middle footer part start..........*/
+.card-footer{
+    width: 79%;
+    margin: 120px 0 0 190px;
+    display: flex;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.card-body-footer{
+    width: 30%;
+    margin-left: 38px;
+}
+.card-footer h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    margin-top: 40px;
+}
+.card-footer p{
+    text-align: center;
+    color: rgb(75, 74, 74);
+    margin-bottom:  40px;
+}
+/*......main-middle footer part end..........*/
+/*.....contract start......*/
+.contract{
+    width: 80%;
+    margin: 0 12%;
+    margin-bottom: 100px;
+    background-image: url(img/7.png);
+}
+.contract h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.contract h2{
+    background: #ff9f9f;
+    margin-bottom: 100px;
+}
+.contract-left{
+    width: 40%;
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center; 
+}
+.contract-right{
+    width: 40%;
+    margin-left: 100px;
+    text-align: center;   
+}
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 160px;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 45px;
+}
+/*.....contract end......*/
+/*------------footer start--------*/
+.footer{
+    text-align: center;
+    background: rgb(6 6 20);
+    padding: 30px 10px;
+}
+.footer-part h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(247, 247, 247);
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.footer-part p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 70px;
+}
+/*------------footer end--------*/
